@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: url(../media/2024_bugatti_chiron_f34_fe_110424_1600.webp);
+  background-size: cover;
+  background-position: center;
+}
+main {
+  background: url(../media/2024_bugatti_chiron_f34_fe_110424_1600.webp);
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  font-style: italic;
+}
+.logo h1 {
+  margin: 0;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+ul li a:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.special {
+  background: #00c1fe;
+  transition: 0.3s;
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+.special:hover {
+  background: #007295;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  flex: 1;
+  margin-left: 75px;
+  color: white;
+}
+.box div {
+  padding: 20px;
+  background-color: rgba(128, 128, 128, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: 1px solid gray;
+}
+.box div h2 {
+  margin: 0 0 10px;
+  font-weight: normal;
+  font-size: 30px;
+}
+.box div p {
+  margin: 0 0 10px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  border-top: 2px solid #ccc;
+  color: white;
+}
+footer h3 {
+  color: #00c1fe;
+  text-shadow: 0 0 5px #007295;
+}
