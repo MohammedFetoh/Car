@@ -88,3 +88,28 @@ footer h3 {
   color: #00c1fe;
   text-shadow: 0 0 5px #007295;
 }
+@media (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  ul {
+    padding-left: 0;
+  }
+  ul li a {
+    padding: 5px;
+  }
+  ul .special {
+    padding: 5px;
+  }
+  footer div {
+    text-align: center;
+    flex: 1;
+  }
+  .box {
+    margin: 0;
+    align-items: center;
+  }
+}
